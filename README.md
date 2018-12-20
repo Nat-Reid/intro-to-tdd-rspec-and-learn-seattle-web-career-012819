@@ -192,7 +192,6 @@ Failures:
   1) current_age_for_birth_year method returns the age of a person based on the year of birth
      Failure/Error: age_of_person = current_age_for_birth_year(1984)
      NoMethodError:
-       undefined method `current_age_for_birth_year' for #<RSpec::ExampleGroups::CurrentAgeForBirthYearMethod:0x007fbb8b0607b8>
      # ./spec/current_age_for_birth_year_spec.rb:5:in `block (2 levels) in <top (required)>'
 
 Finished in 0.00063 seconds (files took 0.1535 seconds to load)
